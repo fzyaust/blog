@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>我的blog</title>
+        <link>/</link>
+        <description>Recent content on 我的blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>宇宙探索</copyright>
+        <lastBuildDate>Fri, 29 Mar 2024 19:30:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的blog一</title>
+        <link>/p/my-first-blog/</link>
+        <pubDate>Fri, 29 Mar 2024 19:30:00 +0800</pubDate>
+        
+        <guid>/p/my-first-blog/</guid>
+        <description>&lt;h2 id=&#34;开始&#34;&gt;开始&lt;/h2&gt;
+&lt;p&gt;多年来混迹各种论坛，平台，当我意识到平台随时可以让一个人所有的踪迹都消失时，我决定开一个字节的blog。&lt;/p&gt;
+&lt;p&gt;简单介绍一下我对这个blog的内容规划吧：&lt;/p&gt;
+&lt;h2 id=&#34;blog内容规划&#34;&gt;blog内容规划&lt;/h2&gt;
+&lt;h3 id=&#34;规划一&#34;&gt;规划一&lt;/h3&gt;
+&lt;p&gt;哪有什么规划，想到哪写到哪。&lt;/p&gt;
+&lt;h3 id=&#34;规划二&#34;&gt;规划二&lt;/h3&gt;
+&lt;p&gt;不被平台规训，不为利益驱使。&lt;/p&gt;
+&lt;h2 id=&#34;联系我&#34;&gt;联系我&lt;/h2&gt;
+&lt;p&gt;如果需要联系我，到我推特吧，这样比较快一点，邮箱只用来在确认要传递什么东西的时候才看一下。&lt;/p&gt;
+&lt;p&gt;我的推特： &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/LeigeSee&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(1) Leige (@LeigeSee) / X (twitter.com)&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
