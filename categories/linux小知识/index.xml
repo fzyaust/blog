@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on 正宇</title>
-        <link>/post/</link>
-        <description>Recent content in Posts on 正宇</description>
+        <title>linux小知识 on 正宇</title>
+        <link>/categories/linux%E5%B0%8F%E7%9F%A5%E8%AF%86/</link>
+        <description>Recent content in linux小知识 on 正宇</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>一个程序员</copyright><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>一个程序员</copyright><atom:link href="/categories/linux%E5%B0%8F%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>linux 2038年是怎么回事</title>
         <link>/p/timstramp/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

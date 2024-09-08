@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>我的blog</title>
+        <title>正宇</title>
         <link>/</link>
-        <description>Recent content on 我的blog</description>
+        <description>Recent content on 正宇</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>宇宙探索</copyright>
-        <lastBuildDate>Fri, 29 Mar 2024 19:30:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>我的blog一</title>
-        <link>/p/my-first-blog/</link>
-        <pubDate>Fri, 29 Mar 2024 19:30:00 +0800</pubDate>
+        <copyright>一个程序员</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>linux 2038年是怎么回事</title>
+        <link>/p/timstramp/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>/p/my-first-blog/</guid>
-        <description>&lt;h2 id=&#34;开始&#34;&gt;开始&lt;/h2&gt;
-&lt;p&gt;多年来混迹各种论坛，平台，当我意识到平台随时可以让一个人所有的踪迹都消失时，我决定开一个字节的blog。&lt;/p&gt;
-&lt;p&gt;简单介绍一下我对这个blog的内容规划吧：&lt;/p&gt;
-&lt;h2 id=&#34;blog内容规划&#34;&gt;blog内容规划&lt;/h2&gt;
-&lt;h3 id=&#34;规划一&#34;&gt;规划一&lt;/h3&gt;
-&lt;p&gt;哪有什么规划，想到哪写到哪。&lt;/p&gt;
-&lt;h3 id=&#34;规划二&#34;&gt;规划二&lt;/h3&gt;
-&lt;p&gt;不被平台规训，不为利益驱使。&lt;/p&gt;
-&lt;h2 id=&#34;联系我&#34;&gt;联系我&lt;/h2&gt;
-&lt;p&gt;如果需要联系我，到我推特吧，这样比较快一点，邮箱只用来在确认要传递什么东西的时候才看一下。&lt;/p&gt;
-&lt;p&gt;我的推特： &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/LeigeSee&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;(1) Leige (@LeigeSee) / X (twitter.com)&lt;/a&gt;&lt;/p&gt;
+        <guid>/p/timstramp/</guid>
+        <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;在计算机应用上，2038年问题可能会导致某些软件在2038年1月19日3时14分07秒之后无法正常工作。所有使用POSIX时间表示时间的程序都将受其影响，因为它们以自1970年1月1日经过的秒数（忽略闰秒）来表示时间。这种时间表示法在类Unix（Unix-like）操作系统上是一个标准，并会影响以其C编程语言开发给其他大部分操作系统使用的软件。&lt;/p&gt;
+&lt;p&gt;在大部分的32位操作系统上，此“time_t”数据模式使用一个有正负号的32位整数（signed int32）存储计算的秒数。依照此“time_t”标准，在此格式能被表示的最后时间是2038年1月19日03:14:07，星期二（UTC）。超过此一瞬间，时间将会“绕回”（wrap around）且在内部被表示为一个负数，并造成程序无法工作，因为它们无法将此时间识别为2038年，而可能会依个别实现而跳回1970年或1901年。因此可能产生错误的计算及动作。&lt;/p&gt;
+&lt;h2 id=&#34;举例&#34;&gt;举例&lt;/h2&gt;
+&lt;p&gt;目前并没有针对现有的CPU／操作系统搭配的简单解决方案。直接将POSIX时间更改为64位模式将会破坏对于软件、数据存储以及所有与二进制表示时间相关的部分的二进位兼容性。更改成无符号的32位整数则会影响许多与两时间之差相关的程序。不过，那时使用32位系统的计算机可能会很少。&lt;/p&gt;
+&lt;h2 id=&#34;解决办法&#34;&gt;解决办法&lt;/h2&gt;
+&lt;p&gt;大部分64位操作系统已经把time_t这个系统变量改为64位宽。不过，其他现有架构的改动仍在进行中，不过预期“应该可以在2038年前完成”。然而，直到2006年，仍然有数以亿计的32位系统在运行中，特别是许多嵌入式系统。相对于一般电脑科技18至24个月的革命性更新，嵌入式系统可能直至使用寿命终结都不会改变。32位time_t的使用亦被编码于文件格式，例如众所周知的ZIP文件压缩格式。其能存在的时间远比受影响的机器长。&lt;/p&gt;
 </description>
         </item>
         
